@@ -1,0 +1,55 @@
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+}
+
+#botao_inicio{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.board-principal{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+    
+
+}
+
+#Rfinanceiro, #objetivo{
+    display: flex;
+    min-width: 33%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.titulo_conteudo{
+    display: flex;
+
+}
+
+#lista_relatorio, #lista_objetivo{
+    list-style: none;
+}
+
+#ifinanceira {
+    background-color: white;
+    min-width: 60%;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+
+#icones_dados_pessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
